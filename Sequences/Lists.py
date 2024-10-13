@@ -1,4 +1,5 @@
 # basic data structure in python: List, Tuples, Dictionaries
+# list is a collection of items that is oreded and changeable 
 
 # List of numbers
 numbers = [3, 5, 6, 7]
