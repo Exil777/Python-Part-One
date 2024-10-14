@@ -16,7 +16,7 @@ print(personB)
 car = {
     "year": 2020,
     "make": "Honda",
-    "Model": "Accord",
+    "model": "Accord",
     "colors": ["red", "blue", "green"]
 }
 
@@ -44,3 +44,15 @@ print(car)
 car.update({"mileage": 55000})
 print(car)
 
+# removing items in dict
+car.pop("mileage")
+print(car)
+# removing the last items in dick
+car.popitem()
+print(car)
+# remving item from dict
+del car["model"]
+print(car)
+# clearing the entire dict
+car.clear()
+print(car)
